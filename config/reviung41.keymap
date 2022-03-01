@@ -23,37 +23,37 @@
 
         default_layer {
             bindings = <
-         &mt LALT TAB   &kp Q   &kp W     &kp E         &kp R      &kp T                 &kp Y                    &kp U      &kp I    &kp O     &kp P  &kp BACKSPACE
- &mt LEFT_CONTROL ESC   &kp A   &kp S     &kp D         &kp F      &kp G                 &kp H                    &kp J      &kp K    &kp L  &kp SEMI       &kp APOS
-            &kp LSHFT   &kp Z   &kp X     &kp C         &kp V      &kp B                 &kp N                    &kp M  &kp COMMA  &kp DOT  &kp FSLH    &lt 3 ENTER
-                                       &kp LGUI  &lt 1 DELETE  &kp SPACE            &lt 2 LEFT  &mt RIGHT_COMMAND RIGHT
+         &mt LALT TAB   &kp Q   &kp W     &kp E       &kp R      &kp T                  &kp Y                     &kp U      &kp I    &kp O     &kp P  &kp BACKSPACE
+ &mt LEFT_CONTROL ESC   &kp A   &kp S     &kp D       &kp F      &kp G                  &kp H                     &kp J      &kp K    &kp L  &kp SEMI       &kp APOS
+            &kp LSHFT   &kp Z   &kp X     &kp C       &kp V      &kp B                  &kp N                     &kp M  &kp COMMA  &kp DOT  &kp FSLH    &lt 3 ENTER
+                                       &kp LGUI  &lt 1 LEFT  &kp SPACE            &lt 2 RIGHT  &mt RIGHT_COMMAND DELETE
             >;
         };
 
         layer_raise {
             bindings = <
-     &trans        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
- &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &trans  &trans  &trans
-     &trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans        &trans        &trans            &trans  &trans
+         &trans        &trans  &kp LEFT_BRACKET     &kp MINUS        &trans         &trans                  &trans         &trans      &kp EQUAL  &kp RIGHT_BRACKET    &kp UP  &kp LA(BACKSPACE)
+      &kp GRAVE  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5            &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8       &kp NUMBER_9  &kp LEFT          &kp RIGHT
+ &kp LEFT_SHIFT        &trans            &trans        &trans     &kp PG_UP  &kp PAGE_DOWN            &kp LA(LEFT)  &kp LA(RIGHT)  &kp BACKSLASH       &kp NUMBER_0  &kp DOWN             &trans
+                                                       &trans        &trans         &trans                   &mo 3         &trans
             >;
         };
 
         layer_lower {
             bindings = <
- &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT            &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR     &trans
- &trans    &trans  &trans    &trans    &trans     &trans            &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
- &trans    &trans  &trans    &trans    &trans     &trans            &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                             &trans    &trans     &trans               &trans     &trans
+    &trans    &trans  &kp LEFT_BRACE  &kp UNDERSCORE      &trans       &trans               &trans         &trans      &kp PLUS        &kp RIGHT_BRACE  &trans  &trans
+ &kp TILDE  &kp EXCL          &kp AT       &kp POUND  &kp DOLLAR  &kp PERCENT            &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &trans  &trans
+    &trans    &trans          &trans          &trans      &trans       &trans            &kp UNDER         &trans      &kp PIPE  &kp RIGHT_PARENTHESIS  &trans  &trans
+                                              &trans       &mo 3       &trans               &trans         &trans
             >;
         };
 
         layer_Layer__3 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans            &trans  &trans
+ &kp F1             &kp F2        &kp F3        &kp F4        &kp F5          &kp F6                &kp F7      &kp F8  &kp F9  &kp F10     &kp F11  &kp F12
+ &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp C_MUTE    &kp C_PLAY  &kp C_PREVIOUS            &kp C_NEXT      &trans  &trans   &trans      &trans   &trans
+ &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4            &bt BT_NXT  &bt BT_PRV  &trans   &trans  &bt BT_CLR   &reset
+                                                &trans        &trans          &trans                &trans      &trans
             >;
         };
 
