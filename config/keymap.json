@@ -4,9 +4,9 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "raise",
     "lower",
-    "Layer #3"
+    "raise",
+    "media"
   ],
   "layers": [
     [
