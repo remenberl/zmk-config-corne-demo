@@ -32,27 +32,27 @@
 
         layer_lower {
             bindings = <
-         &trans        &trans  &kp LEFT_BRACKET     &kp MINUS        &trans         &trans                  &trans         &trans      &kp EQUAL  &kp RIGHT_BRACKET    &kp UP  &kp LA(BACKSPACE)
-      &kp GRAVE  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5            &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8       &kp NUMBER_9  &kp LEFT          &kp RIGHT
- &kp LEFT_SHIFT        &trans            &trans        &trans     &kp PG_UP  &kp PAGE_DOWN            &kp LA(LEFT)  &kp LA(RIGHT)  &kp BACKSLASH       &kp NUMBER_0  &kp DOWN             &trans
-                                                       &trans        &trans         &trans                   &mo 3         &trans
+         &trans        &trans     &kp MINUS     &kp EQUAL        &trans         &trans                  &trans         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp UP      &kp BSPC
+      &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5            &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp LEFT     &kp RIGHT
+ &kp LEFT_SHIFT        &trans        &trans        &trans     &kp PG_UP  &kp PAGE_DOWN            &kp LA(LEFT)  &kp LA(RIGHT)     &kp BACKSLASH         &kp PERIOD  &kp DOWN  &kp NUMBER_0
+                                                   &trans        &trans         &trans                   &mo 3         &trans
             >;
         };
 
         layer_raise {
             bindings = <
-    &trans    &trans  &kp LEFT_BRACE  &kp UNDERSCORE      &trans       &trans               &trans         &trans      &kp PLUS        &kp RIGHT_BRACE  &trans  &trans
- &kp TILDE  &kp EXCL          &kp AT       &kp POUND  &kp DOLLAR  &kp PERCENT            &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &trans  &trans
-    &trans    &trans          &trans          &trans      &trans       &trans            &kp UNDER         &trans      &kp PIPE  &kp RIGHT_PARENTHESIS  &trans  &trans
-                                              &trans       &mo 3       &trans               &trans         &trans
+    &trans    &trans  &kp UNDERSCORE   &kp PLUS      &trans       &trans               &trans         &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans  &kp BSPC
+ &kp TILDE  &kp EXCL          &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT            &kp CARET  &kp AMPERSAND    &kp ASTERISK   &kp LEFT_PARENTHESIS  &trans    &trans
+    &trans    &trans          &trans     &trans      &trans       &trans            &kp UNDER         &trans        &kp PIPE  &kp RIGHT_PARENTHESIS  &trans    &trans
+                                         &trans       &mo 3       &trans               &trans         &trans
             >;
         };
 
         layer_media {
             bindings = <
- &kp F1             &kp F2        &kp F3        &kp F4        &kp F5          &kp F6                &kp F7      &kp F8  &kp F9  &kp F10     &kp F11  &kp F12
- &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp C_MUTE    &kp C_PLAY  &kp C_PREVIOUS            &kp C_NEXT      &trans  &trans   &trans      &trans   &trans
- &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4            &bt BT_NXT  &bt BT_PRV  &trans   &trans  &bt BT_CLR   &reset
+ &kp F1             &kp F2        &kp F3        &kp F4        &kp F5          &kp F6                &kp F7      &kp F8  &kp F9  &kp F10     &kp F11      &kp F12
+ &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp C_MUTE    &kp C_PLAY  &kp C_PREVIOUS            &kp C_NEXT      &trans  &trans   &trans      &trans       &trans
+ &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4            &bt BT_NXT  &bt BT_PRV  &trans   &trans  &bt BT_CLR  &bootloader
                                                 &trans        &trans          &trans                &trans      &trans
             >;
         };
