@@ -16,10 +16,10 @@
                   "&kp LSHFT",  "&kp Z",  "&kp X",    "&kp C",      "&kp V",     "&kp B",                 "&kp N",                    "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH",   "&lt 4 ENTER",
                                                    "&kp LGUI", "&lt 1 LEFT", "&kp SPACE",           "&lt 2 RIGHT", "&mt RIGHT_COMMAND DELETE"
     ], [
-               "&trans",       "&trans",    "&kp MINUS",    "&kp EQUAL",       "&trans",        "&trans",                 "&trans",        "&trans", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",   "&kp UP",     "&kp BSPC",
-            "&kp GRAVE", "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3", "&kp NUMBER_4",  "&kp NUMBER_5",           "&kp NUMBER_6",  "&kp NUMBER_7",     "&kp NUMBER_8",      "&kp NUMBER_9", "&kp LEFT",    "&kp RIGHT",
-       "&kp LEFT_SHIFT",       "&trans",       "&trans",       "&trans",    "&kp PG_UP", "&kp PAGE_DOWN",           "&kp LA(LEFT)", "&kp LA(RIGHT)",    "&kp BACKSLASH",        "&kp PERIOD", "&kp DOWN", "&kp NUMBER_0",
-                                                             "&kp LGUI",       "&trans",        "&trans",                  "&mo 3",        "&trans"
+               "&trans",       "&trans",    "&kp MINUS",    "&kp EQUAL",       "&trans",        "&trans",           "&kp LC(LS(TAB))",   "&kp LC(TAB)", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",   "&kp UP",     "&kp BSPC",
+            "&kp GRAVE", "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3", "&kp NUMBER_4",  "&kp NUMBER_5",              "&kp NUMBER_6",  "&kp NUMBER_7",     "&kp NUMBER_8",      "&kp NUMBER_9", "&kp LEFT",    "&kp RIGHT",
+       "&kp LEFT_SHIFT",       "&trans",       "&trans",       "&trans",    "&kp PG_UP", "&kp PAGE_DOWN",              "&kp LA(LEFT)", "&kp LA(RIGHT)",    "&kp BACKSLASH",        "&kp PERIOD", "&kp DOWN", "&kp NUMBER_0",
+                                                             "&kp LGUI",       "&trans",        "&trans",                     "&mo 3",        "&trans"
     ], [
           "&trans",   "&trans", "&kp UNDERSCORE",  "&kp PLUS",     "&trans",      "&trans",              "&trans",        "&trans", "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&trans", "&kp BSPC",
        "&kp TILDE", "&kp EXCL",         "&kp AT", "&kp POUND", "&kp DOLLAR", "&kp PERCENT",           "&kp CARET", "&kp AMPERSAND",   "&kp ASTERISK",  "&kp LEFT_PARENTHESIS", "&trans",   "&trans",
